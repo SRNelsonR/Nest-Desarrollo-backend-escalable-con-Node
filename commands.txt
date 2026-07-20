@@ -49,3 +49,4 @@ Clase 10. Preparación del proyecto
         yarn dev / npm run dev
 
 Clase 11. Tipos y bases sobre módulos
+Clase 12. Tipos de datos - continuación
