@@ -19,3 +19,31 @@ Clase 7. ¡Únete a Nuestra Comunidad de DevTalles en Discord!
 
 
 FIN Sección 1: Introducción al curso
+####################################################################################
+
+Sección 2: Breve introducción a TypeScript y conocimientos generales necesarios
+
+Clase 8. Introducción a la sección
+Clase 9. Temas puntuales de la sección
+    Temas puntuales de la sección
+    
+    Esta sección tiene por objetivo dar unas bases sobre TypeScript con la idea de que se familiaricen con los conceptos comunes usados en el día a día con Nest.
+    Aquí veremos:
+        - Tipos básicos
+        - Interfaces
+        - Implementaciones
+        - Clases
+        - Patrón adaptador
+        - Principio de sustitución de Liskov
+        - Inyección de dependencias
+        - Getters
+        - Métodos asíncronos
+        - Decoradores de clases y métodos
+    
+    Es importante recalcar que esto no es una introducción a TypeScript, son conceptos que necesito exponer porque los usaremos en el curso de Nest.
+
+Clase 10. Preparación del proyecto
+    yarn create vite
+    npm create vite
+    Levantar app:
+        yarn dev / npm run dev
