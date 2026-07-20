@@ -1,0 +1,21 @@
+Inicio:
+
+####################################################################################
+Sección 1: Introducción al curso
+
+Clase 1. Video introductorio
+Clase 2. Introducción
+Clase 3. ¿Cómo funcionará el curso?
+Clase 4. ¿Cómo hacer preguntas?
+Clase 5. Instalaciones recomendadas
+    https://gist.github.com/Klerith/c0ef4f48d986e2cf3308bb54fff84ea5
+        npm dependencias globales
+        yarn dependencias locales
+
+Clase 6. Material adicional - Guía de Atajos
+    NestJS Página de atajos
+
+Clase 7. ¡Únete a Nuestra Comunidad de DevTalles en Discord!
+
+
+FIN Sección 1: Introducción al curso
