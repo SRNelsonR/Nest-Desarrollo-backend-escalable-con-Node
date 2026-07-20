@@ -47,3 +47,5 @@ Clase 10. Preparación del proyecto
     npm create vite
     Levantar app:
         yarn dev / npm run dev
+
+Clase 11. Tipos y bases sobre módulos
