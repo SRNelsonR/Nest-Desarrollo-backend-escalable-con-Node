@@ -54,3 +54,6 @@ Clase 13. Objetos e interfaces
 Clase 14. Tipos en arreglos
 Clase 15. Clases y forma abreviada
 Clase 16. Getters, métodos y THIS
+Clase 17. Métodos asíncronos
+    https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Destructuring
+    yarn add axios
