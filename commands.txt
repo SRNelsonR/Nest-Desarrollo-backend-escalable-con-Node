@@ -60,3 +60,6 @@ Clase 17. Métodos asíncronos
 
 Clase 18. Colocar tipo de dato a respuestas http (genéricos)
     https://gist.github.com/Klerith/b267d280286212103cb2aac1ae7ad71f
+
+Clase 19. Inyección de dependencias
+    https://gist.github.com/Klerith/5bc0a8535d5a81b77a6bba6f4e8e6625
