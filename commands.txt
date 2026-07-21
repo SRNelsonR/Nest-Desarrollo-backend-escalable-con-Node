@@ -53,3 +53,4 @@ Clase 12. Tipos de datos - continuación
 Clase 13. Objetos e interfaces
 Clase 14. Tipos en arreglos
 Clase 15. Clases y forma abreviada
+Clase 16. Getters, métodos y THIS
