@@ -63,3 +63,6 @@ Clase 18. Colocar tipo de dato a respuestas http (genéricos)
 
 Clase 19. Inyección de dependencias
     https://gist.github.com/Klerith/5bc0a8535d5a81b77a6bba6f4e8e6625
+
+Clase 20. Genéricos + Sustitución de Liskov
+    https://docs.nestjs.com/providers
