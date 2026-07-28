@@ -84,3 +84,20 @@ FIN Sección 2: Breve introducción a TypeScript y conocimientos generales neces
 INICIO Sección 3: Primeros pasos en Nest
 
     Clase 26. Introducción a la sección
+    Clase 27. Temas puntuales de la sección
+        Temas puntuales de la sección
+        
+        Estamos entrando a nuestra primera sección sobre Nest, aquí veremos:
+            - ¿Qué es Nest?
+            - ¿Por qué usarlo?
+            - Explicación sobre cada archivo en un proyecto nuevo de Nest
+            - Core Nest building blocks
+                Módulos
+                Controladores (Post, Patch, Get, Delete)
+                Primeros decoradores
+                Servicios
+                Inyección de dependencias
+                Pipes
+                Exception Filters
+        
+        Adicionalmente estaremos creando un Rest Api inicial para ir explicando cada concepto paso a paso.
