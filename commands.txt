@@ -76,3 +76,7 @@ Clase 24. Resumen de lo aprendido
 Clase 25. Código fuente de la sección
     Aquí les dejo mi código fuente de la sección por si lo llegan a necesitar para compararlo contra el suyo o tenerlo a la mano para revisarlo.
         https://github.com/Klerith/nest-typescript-intro
+
+
+FIN Sección 2: Breve introducción a TypeScript y conocimientos generales necesarios
+####################################################################################
