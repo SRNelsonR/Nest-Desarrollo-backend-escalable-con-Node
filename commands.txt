@@ -68,3 +68,4 @@ Clase 20. Genéricos + Sustitución de Liskov
     https://docs.nestjs.com/providers
 
 Clase 21. Resolver el principio de sustitución
+Clase 22. Decoradores

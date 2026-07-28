@@ -1,11 +1,12 @@
 // import { name, age } from './bases/01-types';
-// import { bulbasaur, pokemons } from './bases/02-objects.ts';
-// import { charmander } from './bases/03-classes.ts';
+// import { bulbasaur, pokemons } from './bases/02-objects';
+// import { charmander } from './bases/03-classes';
+// import { charmander } from './bases/04-inyection';
 import './style.css';
 import typescriptLogo from './typescript.svg';
 import viteLogo from '/vite.svg';
-import { setupCounter } from './counter.ts';
-import { charmander } from './bases/04-inyection.ts';
+import { setupCounter } from './counter';
+import { charmander } from './bases/05-decorators';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
