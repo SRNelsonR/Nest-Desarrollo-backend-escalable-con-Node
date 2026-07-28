@@ -1,7 +1,7 @@
 Inicio:
 
 ####################################################################################
-Sección 1: Introducción al curso
+INICIO Sección 1: Introducción al curso
 
 Clase 1. Video introductorio
 Clase 2. Introducción
@@ -21,7 +21,7 @@ Clase 7. ¡Únete a Nuestra Comunidad de DevTalles en Discord!
 FIN Sección 1: Introducción al curso
 ####################################################################################
 
-Sección 2: Breve introducción a TypeScript y conocimientos generales necesarios
+INICIO Sección 2: Breve introducción a TypeScript y conocimientos generales necesarios
 
 Clase 8. Introducción a la sección
 Clase 9. Temas puntuales de la sección
@@ -80,3 +80,7 @@ Clase 25. Código fuente de la sección
 
 FIN Sección 2: Breve introducción a TypeScript y conocimientos generales necesarios
 ####################################################################################
+
+INICIO Sección 3: Primeros pasos en Nest
+
+    Clase 26. Introducción a la sección
