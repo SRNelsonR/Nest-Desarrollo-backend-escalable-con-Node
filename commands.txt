@@ -103,3 +103,5 @@ INICIO Sección 3: Primeros pasos en Nest
         Adicionalmente estaremos creando un Rest Api inicial para ir explicando cada concepto paso a paso.
     
     Clase 28. ¿Qué es Nest? y ¿Por qué usarlo?
+    Clase 29. Instalar Nest CLI - Command Line Interface
+        npm i -g @nestjs/cli
