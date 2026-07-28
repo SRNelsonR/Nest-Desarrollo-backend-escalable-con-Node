@@ -71,3 +71,5 @@ Clase 21. Resolver el principio de sustitución
 Clase 22. Decoradores
 Clase 23. Decorador de método - @Deprecated
     https://gist.github.com/Klerith/c4bd6ddc72362ac35b68a0727294ebdc
+
+Clase 24. Resumen de lo aprendido
