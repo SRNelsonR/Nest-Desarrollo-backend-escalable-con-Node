@@ -132,3 +132,5 @@ INICIO Sección 3: Primeros pasos en Nest
     
     Clase 34. Desactivar Prettier
         yarn remove prettier
+    
+    Clase 35. Obtener un carro por ID
