@@ -129,3 +129,6 @@ INICIO Sección 3: Primeros pasos en Nest
         Comando para crear controlador
             nest g co <path/nombre>
             nest g co cars
+    
+    Clase 34. Desactivar Prettier
+        yarn remove prettier
