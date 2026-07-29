@@ -115,3 +115,5 @@ INICIO Sección 3: Primeros pasos en Nest
             cd car-dealership
             yarn run start
             Uso: yarn start:dev
+    
+    Clase 31. Explicación de cada archivo y directorio
