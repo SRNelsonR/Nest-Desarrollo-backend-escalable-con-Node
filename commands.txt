@@ -105,3 +105,13 @@ INICIO Sección 3: Primeros pasos en Nest
     Clase 28. ¿Qué es Nest? y ¿Por qué usarlo?
     Clase 29. Instalar Nest CLI - Command Line Interface
         npm i -g @nestjs/cli
+    
+    Clase 30. Generar nuestro primer proyecto - CarDealership
+        Crear nuevo proyecto de Nest
+            nest new project-name
+            nest new car-dealership
+        
+        Iniciar
+            cd car-dealership
+            yarn run start
+            Uso: yarn start:dev
