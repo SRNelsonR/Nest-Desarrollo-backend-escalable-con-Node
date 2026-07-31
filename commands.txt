@@ -134,3 +134,7 @@ INICIO Sección 3: Primeros pasos en Nest
         yarn remove prettier
     
     Clase 35. Obtener un carro por ID
+    Clase 36. Servicios
+        Crear servicio:
+            nest g s <path/nombre> --no-spec
+            nest g s cars --no-spec
