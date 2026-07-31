@@ -138,3 +138,5 @@ INICIO Sección 3: Primeros pasos en Nest
         Crear servicio:
             nest g s <path/nombre> --no-spec
             nest g s cars --no-spec
+    
+    Clase 37. Inyección de dependencias
