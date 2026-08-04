@@ -178,3 +178,5 @@ INICIO Sección 4: DTOs y Validación de información
     Clase 48. ValidationPipe - Class Validator y Class Transformer
         npm i class-validator class-transformer
         yarn add class-validator class-transformer
+    
+    Clase 49. Pipes Globales - A nivel de Aplicación
