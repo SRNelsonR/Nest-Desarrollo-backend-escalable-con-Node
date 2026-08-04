@@ -175,3 +175,6 @@ INICIO Sección 4: DTOs y Validación de información
     
     Clase 46. Pipe - ParseUUIDPipe
     Clase 47. DTO - Data Transfer Object
+    Clase 48. ValidationPipe - Class Validator y Class Transformer
+        npm i class-validator class-transformer
+        yarn add class-validator class-transformer
