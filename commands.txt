@@ -181,3 +181,4 @@ INICIO Sección 4: DTOs y Validación de información
     
     Clase 49. Pipes Globales - A nivel de Aplicación
     Clase 50. Crear el nuevo carro
+    Clase 51. Actualizar un carro
