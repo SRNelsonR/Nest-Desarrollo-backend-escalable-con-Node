@@ -174,3 +174,4 @@ INICIO Sección 4: DTOs y Validación de información
             yarn add -D @types/uuid
     
     Clase 46. Pipe - ParseUUIDPipe
+    Clase 47. DTO - Data Transfer Object
