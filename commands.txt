@@ -145,3 +145,9 @@ INICIO Sección 3: Primeros pasos en Nest
     
     Clase 39. Exception Filters
     Clase 40. Post, Patch y Delete
+    Clase 41. Código fuente de la sección
+        Aquí les dejo el código fuente de la sección por si lo quieren comparar contra el mío o bien quieren iniciar la siguiente sección con el código idéntico a mi.
+            https://github.com/Klerith/nest-car-dealership/tree/fin-seccion-3
+
+
+FIN Sección 3: Primeros pasos en Nest
