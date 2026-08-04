@@ -168,3 +168,7 @@ INICIO Sección 4: DTOs y Validación de información
                 - Algunos decoradores del Class Validator útiles
     
     Clase 44. Continuación de la sección
+    Clase 45. Interfaces y UUID
+        https://www.npmjs.com/package/uuid
+            yarn add uuid
+            yarn add -D @types/uuid
