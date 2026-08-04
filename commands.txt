@@ -180,3 +180,4 @@ INICIO Sección 4: DTOs y Validación de información
         yarn add class-validator class-transformer
     
     Clase 49. Pipes Globales - A nivel de Aplicación
+    Clase 50. Crear el nuevo carro
