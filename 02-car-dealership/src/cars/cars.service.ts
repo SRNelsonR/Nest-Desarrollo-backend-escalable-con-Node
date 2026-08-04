@@ -1,4 +1,4 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
+import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
 import { v4 as uuid } from 'uuid';
 
 import { Car } from './interfaces/car.interface';
@@ -61,7 +61,32 @@ export class CarsService {
     }
 
     update( id: string, updateCarDto: UpdateCarDto ){
-        
+
+        let carDB = this.findOneById( id );
+        console.log(carDB);
+        console.log(updateCarDto);
+
+        if( updateCarDto.id && updateCarDto.id !== id )
+            throw new BadRequestException( `Car id is not valid inside body` );
+
+        // TODO: revisar este map porque cuando solo se envia brand en la petición, elimina el model, retornando el objeto solo con id y model.
+        this.cars = this.cars.map( car => {
+            if( car.id === id ){
+                carDB = {
+                    // Esparso las propiedades del carDB
+                    ...carDB,
+                    // Luego esparso las propiedades del update para sustituir las de carDB
+                    ...updateCarDto,
+                    // Si vienera algún ID, este lo sustituiría para dejar el que es
+                    id
+                };
+                console.log(carDB); 
+                return carDB;
+            }
+            return car;
+        });
+
+        return carDB; //Carro actualizado
     }
 
 }
