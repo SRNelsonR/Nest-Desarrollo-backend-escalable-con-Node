@@ -151,3 +151,8 @@ INICIO Sección 3: Primeros pasos en Nest
 
 
 FIN Sección 3: Primeros pasos en Nest
+####################################################################################
+
+INICIO Sección 4: DTOs y Validación de información
+
+    Clase 42. Introducción a la sección
