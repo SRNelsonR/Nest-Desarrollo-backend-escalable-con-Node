@@ -156,3 +156,13 @@ FIN Sección 3: Primeros pasos en Nest
 INICIO Sección 4: DTOs y Validación de información
 
     Clase 42. Introducción a la sección
+    Clase 43. Temas puntuales de la sección
+        Temas puntuales de la sección
+            Esta sección terminaremos el POST, PATCH y DELETE de nuestro CRUD inicial, pero de forma puntual veremos:
+                - DTO (Data Transfer Object)
+                - Patch, Post, Delete
+                - Validaciones automáticas
+                - Class Validator
+                - Class Transformer
+                - Seguir el principio DRY (Don't repeat yourself)
+                - Algunos decoradores del Class Validator útiles
