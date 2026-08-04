@@ -166,3 +166,5 @@ INICIO Sección 4: DTOs y Validación de información
                 - Class Transformer
                 - Seguir el principio DRY (Don't repeat yourself)
                 - Algunos decoradores del Class Validator útiles
+    
+    Clase 44. Continuación de la sección
