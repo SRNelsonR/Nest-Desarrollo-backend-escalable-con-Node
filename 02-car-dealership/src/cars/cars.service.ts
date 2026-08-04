@@ -70,15 +70,28 @@ export class CarsService {
             throw new BadRequestException( `Car id is not valid inside body` );
 
         // TODO: revisar este map porque cuando solo se envia brand en la petición, elimina el model, retornando el objeto solo con id y model.
+        // this.cars = this.cars.map( car => {
+        //     if( car.id === id ){
+        //         carDB = {
+        //             // Esparso las propiedades del carDB
+        //             ...carDB,
+        //             // Luego esparso las propiedades del update para sustituir las de carDB
+        //             ...updateCarDto,
+        //             // Si vienera algún ID, este lo sustituiría para dejar el que es
+        //             id
+        //         };
+        //         console.log(carDB); 
+        //         return carDB;
+        //     }
+        //     return car;
+        // });
+
         this.cars = this.cars.map( car => {
             if( car.id === id ){
                 carDB = {
-                    // Esparso las propiedades del carDB
-                    ...carDB,
-                    // Luego esparso las propiedades del update para sustituir las de carDB
-                    ...updateCarDto,
-                    // Si vienera algún ID, este lo sustituiría para dejar el que es
-                    id
+                    id,
+                    brand: updateCarDto.brand ?? car.brand,
+                    model: updateCarDto.model ?? car.model,
                 };
                 console.log(carDB); 
                 return carDB;
