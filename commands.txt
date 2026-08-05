@@ -225,3 +225,6 @@ INICIO Sección 5: Nest CLI Resource - Brands CRUD
     Clase 64. Código fuente de la sección
         Aquí les dejo el código fuente de la sección por si lo llegan a necesitar o comparar contra el suyo.
             https://github.com/Klerith/nest-car-dealership/tree/fin-seccion-5
+
+
+FIN Sección 5: Nest CLI Resource - Brands CRUD
