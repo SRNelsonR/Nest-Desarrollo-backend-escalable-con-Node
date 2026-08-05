@@ -191,3 +191,8 @@ INICIO Sección 4: DTOs y Validación de información
 
 
 FIN Sección 4: DTOs y Validación de información
+####################################################################################
+
+INICIO Sección 5: Nest CLI Resource - Brands CRUD
+
+    Clase 56. Introducción a la sección
