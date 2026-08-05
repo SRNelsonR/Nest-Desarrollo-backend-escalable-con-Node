@@ -102,4 +102,14 @@ export class CarsService {
         return carDB; //Carro actualizado
     }
 
+    delete( id: string ){
+        // console.log( id );
+        // let carDB = this.findOneById( id );
+
+        // this.cars = this.cars.filter( car => car.id !== id);
+        // Otra solución
+        const car = this.findOneById( id );
+        this.cars = this.cars.filter( car => car.id !== id);
+    }
+
 }

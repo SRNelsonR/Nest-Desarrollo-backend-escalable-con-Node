@@ -183,3 +183,4 @@ INICIO Sección 4: DTOs y Validación de información
     Clase 50. Crear el nuevo carro
     Clase 51. Actualizar un carro
     Clase 52. Actualizar el listado de carros
+    Clase 53. Borrar un carro
