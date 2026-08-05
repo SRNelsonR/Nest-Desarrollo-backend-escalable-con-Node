@@ -221,3 +221,4 @@ INICIO Sección 5: Nest CLI Resource - Brands CRUD
         nest g resource seed --no-spec
     
     Clase 62. Preparar servicios para insertar SEED
+    Clase 63. Inyectar servicios en otros servicios
