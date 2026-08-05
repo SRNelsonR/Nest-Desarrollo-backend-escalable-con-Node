@@ -211,3 +211,4 @@ INICIO Sección 5: Nest CLI Resource - Brands CRUD
                         - DTOs
                         - Servicios
                         - Controladores
+    Clase 58. Continuación de la sección
