@@ -185,3 +185,6 @@ INICIO Sección 4: DTOs y Validación de información
     Clase 52. Actualizar el listado de carros
     Clase 53. Borrar un carro
     Clase 54. Resumen de la sección
+    Clase 55. Código fuente de la sección
+        Aquí les dejo el código fuente de la sección por si lo quieren comparar contra el mío o bien quieren iniciar la siguiente sección con el código idéntico a mi.
+            https://github.com/Klerith/nest-car-dealership/tree/fin-seccion-4
