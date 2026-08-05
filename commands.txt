@@ -215,3 +215,5 @@ INICIO Sección 5: Nest CLI Resource - Brands CRUD
     Clase 59. Nest CLI Resource - Brands
         nest g res brands --no-spec
         nest g resource brands --no-spec
+    
+    Clase 60. Crear CRUD completo de Brands
