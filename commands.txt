@@ -219,3 +219,5 @@ INICIO Sección 5: Nest CLI Resource - Brands CRUD
     Clase 60. Crear CRUD completo de Brands
     Clase 61. Crear servicio SEED para cargar datos
         nest g resource seed --no-spec
+    
+    Clase 62. Preparar servicios para insertar SEED
