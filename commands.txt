@@ -222,3 +222,6 @@ INICIO Sección 5: Nest CLI Resource - Brands CRUD
     
     Clase 62. Preparar servicios para insertar SEED
     Clase 63. Inyectar servicios en otros servicios
+    Clase 64. Código fuente de la sección
+        Aquí les dejo el código fuente de la sección por si lo llegan a necesitar o comparar contra el suyo.
+            https://github.com/Klerith/nest-car-dealership/tree/fin-seccion-5
