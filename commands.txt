@@ -257,3 +257,7 @@ INICIO Sección 7: MongoDB Pokedex
                 - Modelos
                 - DTOs y sus extensiones
                 - Respaldar a Github
+    
+    Clase 69. Inicio de proyecto - Pokedex
+        Crear proyecto de nest
+            nest new pokedex
