@@ -238,3 +238,6 @@ INICIO Sección 6: Generar build de producción básico
             yarn build
         Iniciar la versión de producción
             yarn start:prod
+
+
+FIN Sección 6: Generar build de producción básico
