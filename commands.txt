@@ -228,3 +228,8 @@ INICIO Sección 5: Nest CLI Resource - Brands CRUD
 
 
 FIN Sección 5: Nest CLI Resource - Brands CRUD
+####################################################################################
+
+INICIO Sección 6: Generar build de producción básico
+
+    Clase 56. Introducción a la sección
