@@ -232,4 +232,9 @@ FIN Sección 5: Nest CLI Resource - Brands CRUD
 
 INICIO Sección 6: Generar build de producción básico
 
-    Clase 56. Introducción a la sección
+    Clase 65. Introducción a la sección
+    Clase 66. Generar build de producción básico
+        Construcción de proyecto o versión de producción
+            yarn build
+        Iniciar la versión de producción
+            yarn start:prod
