@@ -241,3 +241,8 @@ INICIO Sección 6: Generar build de producción básico
 
 
 FIN Sección 6: Generar build de producción básico
+####################################################################################
+
+INICIO Sección 7: MongoDB Pokedex
+
+    Clase 67. Introducción a la sección
