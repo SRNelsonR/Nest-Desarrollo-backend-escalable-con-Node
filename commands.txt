@@ -278,3 +278,5 @@ INICIO Sección 7: MongoDB Pokedex
             yarn add @nestjs/mongoose mongoose
     
     Clase 75. Crear esquemas y Modelos
+    Clase 76. POST - Recibir y validar la data
+        yarn add class-validator class-transformer
