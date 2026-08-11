@@ -271,3 +271,5 @@ INICIO Sección 7: MongoDB Pokedex
     
     Clase 72. Docker - DockerCompose - MongoDB
         docker-compose up -d
+    
+    Clase 73. README.md
