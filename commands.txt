@@ -261,3 +261,7 @@ INICIO Sección 7: MongoDB Pokedex
     Clase 69. Inicio de proyecto - Pokedex
         Crear proyecto de nest
             nest new pokedex
+    
+    Clase 70. Servir contenido estático
+        npm i @nestjs/serve-static
+        yarn add @nestjs/serve-static
