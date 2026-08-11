@@ -280,3 +280,5 @@ INICIO Sección 7: MongoDB Pokedex
     Clase 75. Crear esquemas y Modelos
     Clase 76. POST - Recibir y validar la data
         yarn add class-validator class-transformer
+    
+    Clase 77. Crear Pokémon en base de datos
