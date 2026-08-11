@@ -282,3 +282,5 @@ INICIO Sección 7: MongoDB Pokedex
         yarn add class-validator class-transformer
     
     Clase 77. Crear Pokémon en base de datos
+    Clase 78. Responder un error específico
+        https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
