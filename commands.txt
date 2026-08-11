@@ -268,3 +268,6 @@ INICIO Sección 7: MongoDB Pokedex
     
     Clase 71. Global Prefix
         nest g res pokemon --no-spec (REST API)
+    
+    Clase 72. Docker - DockerCompose - MongoDB
+        docker-compose up -d
