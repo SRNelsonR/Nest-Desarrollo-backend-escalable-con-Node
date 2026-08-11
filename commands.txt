@@ -276,3 +276,5 @@ INICIO Sección 7: MongoDB Pokedex
     Clase 74. Conectar Nest con Mongo
         https://docs.nestjs.com/techniques/mongodb
             yarn add @nestjs/mongoose mongoose
+    
+    Clase 75. Crear esquemas y Modelos
