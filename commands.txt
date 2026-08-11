@@ -273,3 +273,6 @@ INICIO Sección 7: MongoDB Pokedex
         docker-compose up -d
     
     Clase 73. README.md
+    Clase 74. Conectar Nest con Mongo
+        https://docs.nestjs.com/techniques/mongodb
+            yarn add @nestjs/mongoose mongoose
