@@ -265,3 +265,6 @@ INICIO Sección 7: MongoDB Pokedex
     Clase 70. Servir contenido estático
         npm i @nestjs/serve-static
         yarn add @nestjs/serve-static
+    
+    Clase 71. Global Prefix
+        nest g res pokemon --no-spec (REST API)
