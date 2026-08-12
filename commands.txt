@@ -288,3 +288,4 @@ INICIO Sección 7: MongoDB Pokedex
     Clase 79. FindOneBy - Buscar por nombre, MongoId y no
     Clase 80. Actualizar Pokemon en base de datos
     Clase 81. Tarea - Validar valores únicos
+    Clase 82. Eliminar un Pokemon
