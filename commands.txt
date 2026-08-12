@@ -286,3 +286,4 @@ INICIO Sección 7: MongoDB Pokedex
         https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status
     
     Clase 79. FindOneBy - Buscar por nombre, MongoId y no
+    Clase 80. Actualizar Pokemon en base de datos
