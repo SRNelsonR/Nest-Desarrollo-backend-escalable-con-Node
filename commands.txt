@@ -289,3 +289,9 @@ INICIO Sección 7: MongoDB Pokedex
     Clase 80. Actualizar Pokemon en base de datos
     Clase 81. Tarea - Validar valores únicos
     Clase 82. Eliminar un Pokemon
+    Clase 83. CustomPipes - ParseMongoIdPipe
+        Crear nuevo módulo
+            nest g mo common
+        Crear un nnuevo pipe
+            nest g pipe common/pipes/parseMongoId --no-spec
+            nest g pi common/pipes/parseMongoId --no-spec
