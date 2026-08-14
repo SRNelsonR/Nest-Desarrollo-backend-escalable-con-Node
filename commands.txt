@@ -311,3 +311,12 @@ FIN Sección 7: MongoDB Pokedex
 INICIO Sección 8: Seed y Paginación
 
     Clase 87. Introducción a la sección
+    Clase 88. Temas puntuales de la sección
+        Temas puntuales de la sección
+            Esta sección tiene por objetivo aprender:
+                - Uso de modelos en diferentes módulos
+                - SEED para llenar la base de datos
+                - Paginación de resultados
+                - DTOs para Query parameters
+                - Transformaciones de DTOs
+            También les mostraré varias formas de hacer inserciones por lote y varias formas de lograrlo.
