@@ -320,3 +320,5 @@ INICIO Sección 8: Seed y Paginación
                 - DTOs para Query parameters
                 - Transformaciones de DTOs
             También les mostraré varias formas de hacer inserciones por lote y varias formas de lograrlo.
+    
+    Clase 89. Continuación de proyecto
