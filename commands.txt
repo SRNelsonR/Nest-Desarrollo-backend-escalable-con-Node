@@ -299,3 +299,7 @@ INICIO Sección 7: MongoDB Pokedex
     Clase 84. Validar y eliminar en una sola consulta
     Clase 85. Respaldar código fuente en GitHub
         La carpeta de mongo no se debe respaldar
+    
+    Clase 86. Código fuente de la sección
+        Aquí les dejo mi código fuente por si lo llegan a necesitar en el futuro o la siguiente sección
+            https://github.com/Klerith/nest-pokedex/tree/fin-seccion-7
