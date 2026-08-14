@@ -295,3 +295,5 @@ INICIO Sección 7: MongoDB Pokedex
         Crear un nnuevo pipe
             nest g pipe common/pipes/parseMongoId --no-spec
             nest g pi common/pipes/parseMongoId --no-spec
+    
+    Clase 84. Validar y eliminar en una sola consulta
