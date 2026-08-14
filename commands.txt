@@ -306,3 +306,8 @@ INICIO Sección 7: MongoDB Pokedex
 
 
 FIN Sección 7: MongoDB Pokedex
+####################################################################################
+
+INICIO Sección 8: Seed y Paginación
+
+    Clase 87. Introducción a la sección
