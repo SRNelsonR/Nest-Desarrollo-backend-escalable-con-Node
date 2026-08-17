@@ -338,3 +338,6 @@ INICIO Sección 8: Seed y Paginación
     
     Clase 92. Realizar petición http desde Nest
         yarn add axios@0.27.2
+    
+    Clase 93. Tarea - Insertar Pokemons por lote
+    Clase 94. Resolución - Insertar Pokemons por lote
