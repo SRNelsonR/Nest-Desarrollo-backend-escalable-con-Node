@@ -335,3 +335,6 @@ INICIO Sección 8: Seed y Paginación
             
             Por lo que a la hora de instalar axios, recomendamos instalen la versión 0.27.2 hasta que liberen una versión superior con el inconveniente solventado.
             Pueden usar el comando yarn add axios@0.27.2 o npm install axios@0.27.2.
+    
+    Clase 92. Realizar petición http desde Nest
+        yarn add axios@0.27.2
