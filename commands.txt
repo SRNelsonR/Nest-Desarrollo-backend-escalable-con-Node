@@ -325,3 +325,13 @@ INICIO Sección 8: Seed y Paginación
     Clase 90. Crear módulo SEED
         Generar recursos para seed
             nest g res seed --no-spec
+    
+    Clase 91. Nota de actualización - Axios
+        Nota de actualización - Axios
+            En la siguiente clase, instalamos el paquete axios para realizar las peticiones HTTP.
+            
+            En la última versión del mismo, está dando inconvenientes con NestJS (cannot read properties of undefined).
+            Pueden ver la issue sin resolver a día de hoy: https://github.com/axios/axios/issues/5100.
+            
+            Por lo que a la hora de instalar axios, recomendamos instalen la versión 0.27.2 hasta que liberen una versión superior con el inconveniente solventado.
+            Pueden usar el comando yarn add axios@0.27.2 o npm install axios@0.27.2.
