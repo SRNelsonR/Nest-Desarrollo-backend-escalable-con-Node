@@ -354,3 +354,5 @@ FIN Sección 8: Seed y Paginación
 ####################################################################################
 
 INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
+
+    Clase 100. Introducción a la sección
