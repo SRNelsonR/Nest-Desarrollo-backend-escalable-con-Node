@@ -343,3 +343,4 @@ INICIO Sección 8: Seed y Paginación
     Clase 94. Resolución - Insertar Pokemons por lote
     Clase 95. Insertar multiples registros simultáneamente
     Clase 96. Crear un custom provider - opcional
+    Clase 97. Paginación de Pokemons
