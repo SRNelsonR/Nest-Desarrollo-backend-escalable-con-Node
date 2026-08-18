@@ -14,6 +14,10 @@ async function bootstrap() {
       whitelist: true,
       // Informa las propiedades que no son necesaarias enviar
       forbidNonWhitelisted: true,
+      transform: true,
+      transformOptions: {
+        enableImplicitConversion: true
+      }
     })
   );
 

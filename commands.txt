@@ -344,3 +344,4 @@ INICIO Sección 8: Seed y Paginación
     Clase 95. Insertar multiples registros simultáneamente
     Clase 96. Crear un custom provider - opcional
     Clase 97. Paginación de Pokemons
+    Clase 98. Transform DTOs
