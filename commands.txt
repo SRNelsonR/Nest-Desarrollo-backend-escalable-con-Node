@@ -345,3 +345,6 @@ INICIO Sección 8: Seed y Paginación
     Clase 96. Crear un custom provider - opcional
     Clase 97. Paginación de Pokemons
     Clase 98. Transform DTOs
+    Clase 99. Código fuente de la sección
+        Aquí les dejo mi código fuente de la sección para que puedan compararlo contra el mío
+            https://github.com/Klerith/nest-pokedex/tree/fin-seccion-8
