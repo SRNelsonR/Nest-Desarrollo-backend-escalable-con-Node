@@ -348,3 +348,6 @@ INICIO Sección 8: Seed y Paginación
     Clase 99. Código fuente de la sección
         Aquí les dejo mi código fuente de la sección para que puedan compararlo contra el mío
             https://github.com/Klerith/nest-pokedex/tree/fin-seccion-8
+
+
+FIN Sección 8: Seed y Paginación
