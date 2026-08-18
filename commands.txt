@@ -341,3 +341,4 @@ INICIO Sección 8: Seed y Paginación
     
     Clase 93. Tarea - Insertar Pokemons por lote
     Clase 94. Resolución - Insertar Pokemons por lote
+    Clase 95. Insertar multiples registros simultáneamente
