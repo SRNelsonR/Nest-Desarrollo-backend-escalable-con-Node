@@ -385,3 +385,5 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
             Revisar que un objeto luzca de l amanera esperada (Variables de entorno)
         https://www.npmjs.com/package/joi
         yarn add joi
+    
+    Clase 107. ENV Template - Readme
