@@ -369,3 +369,5 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
                 - Recomendaciones para un Readme útil
                 - Despliegues
                 - Dockerfile
+    
+    Clase 102. Continuación de proyecto
