@@ -376,3 +376,12 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
     
     Clase 104. Configuration Loader
     Clase 105. ConfigurationService
+    Clase 106. joi - ValidationSchema
+        No es necesario si ya tenemos el env.config.ts, pero si queremos agregar alguna validación o mostrar un error mas específico mejor
+        Sirve para:
+            Validar
+            Lanzar errores
+            Poner errores por defecto
+            Revisar que un objeto luzca de l amanera esperada (Variables de entorno)
+        https://www.npmjs.com/package/joi
+        yarn add joi
