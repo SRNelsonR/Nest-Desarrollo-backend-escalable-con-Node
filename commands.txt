@@ -373,3 +373,5 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
     Clase 102. Continuación de proyecto
     Clase 103. Configuración de variables de entorno
         yarn add @nestjs/config
+    
+    Clase 104. Configuration Loader
