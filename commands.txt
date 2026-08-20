@@ -393,3 +393,5 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
     
     Clase 109. Desplegar aplicación en la nube
         // TODO: Pendiente revisar la funcionalidad en Render (https://render.com/ - https://dashboard.render.com/)
+    
+    Clase 110. Bonus - Docker ¿Dockerizar?
