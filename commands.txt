@@ -387,3 +387,6 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
         yarn add joi
     
     Clase 107. ENV Template - Readme
+    Clase 108. MongoDB - Aprovisionamiento
+        https://railway.com/
+        https://www.mongodb.com/cloud/atlas/efficiency
