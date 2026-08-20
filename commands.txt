@@ -397,3 +397,5 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
     Clase 110. Bonus - Docker ¿Dockerizar?
     Clase 111. Bonus: Explicación general del Dockerfile
         https://gist.github.com/Klerith/e7861738c93712840ab3a38674843490
+    
+    Clase 112. Bonus: Definir la construcción de la imagen
