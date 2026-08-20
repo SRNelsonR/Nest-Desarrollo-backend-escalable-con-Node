@@ -395,3 +395,5 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
         // TODO: Pendiente revisar la funcionalidad en Render (https://render.com/ - https://dashboard.render.com/)
     
     Clase 110. Bonus - Docker ¿Dockerizar?
+    Clase 111. Bonus: Explicación general del Dockerfile
+        https://gist.github.com/Klerith/e7861738c93712840ab3a38674843490
