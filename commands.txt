@@ -424,3 +424,8 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
 
 
 FIN Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
+####################################################################################
+
+INICIO Sección 10: TypeORM - Postgres
+
+    Clase 121. Introducción a la sección
