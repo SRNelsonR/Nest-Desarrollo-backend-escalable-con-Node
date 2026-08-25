@@ -415,3 +415,6 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
         Las siguientes clases son opcionales, ya que se reemplazaron por las que ya vieron de Railway.
         Aquí veremos como aprovisionar MongoDB usando MongoAtlas y desplegarlo en Heroku, pero de nuevo totalmente opcional si ya hicieron el despliegue de su aplicación en Railway.
         Esta es una actualización debido a los cambios de precio que tuvo Heroku principalmente.
+    
+    Clase 118. Archivado MongoAtlas - MongoDB en la nube
+        https://www.mongodb.com/products/platform/atlas-database
