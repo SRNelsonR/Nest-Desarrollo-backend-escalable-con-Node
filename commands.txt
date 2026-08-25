@@ -410,3 +410,8 @@ INICIO Sección 9: Variables de entorno - Deployment y Dockerizar la aplicación
     Clase 116. Código fuente de la sección
         Aquí les dejo el código fuente de la sección por si lo llegan a necesitar:
             https://github.com/Klerith/nest-pokedex/tree/fin-seccion-9
+    
+    Clase 117. Nota de actualización
+        Las siguientes clases son opcionales, ya que se reemplazaron por las que ya vieron de Railway.
+        Aquí veremos como aprovisionar MongoDB usando MongoAtlas y desplegarlo en Heroku, pero de nuevo totalmente opcional si ya hicieron el despliegue de su aplicación en Railway.
+        Esta es una actualización debido a los cambios de precio que tuvo Heroku principalmente.
