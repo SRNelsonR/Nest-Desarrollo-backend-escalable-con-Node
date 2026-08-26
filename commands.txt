@@ -468,3 +468,6 @@ INICIO Sección 10: TypeORM - Postgres
         nest g res products --no-spec
     
     Clase 127. Entidad sin relaciones
+    Clase 128. Create Product DTO
+        Para DTO necesarios decoradores y class validator
+            yarn add class-validator class-transformer
