@@ -451,3 +451,14 @@ INICIO Sección 10: TypeORM - Postgres
         https://typeorm.io/
     
     Clase 124. Docker - Instalar y correr Postgres
+    Clase 125. Conectar Postgres con Nest
+        https://docs.nestjs.com/techniques/database
+
+        Configuración de variables de Entorno
+            yarn add @nestjs/config
+
+        Instalar TypeORM
+            yarn add @nestjs/typeorm typeorm
+        
+        Instalar driver de Postgres
+            yarn add pg
