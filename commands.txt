@@ -466,3 +466,5 @@ INICIO Sección 10: TypeORM - Postgres
     Clase 126. TypeORM - Entity - Product
         https://gist.github.com/Klerith/1fb1b9f758bb0c5b2253dfc94f09e1b6
         nest g res products --no-spec
+    
+    Clase 127. Entidad sin relaciones
