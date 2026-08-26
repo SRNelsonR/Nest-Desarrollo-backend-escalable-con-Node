@@ -449,3 +449,5 @@ INICIO Sección 10: TypeORM - Postgres
     Clase 123. Inicio de proyecto - TesloShop
         nest new teslo-shop
         https://typeorm.io/
+    
+    Clase 124. Docker - Instalar y correr Postgres
