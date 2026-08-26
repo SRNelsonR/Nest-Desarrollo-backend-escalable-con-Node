@@ -445,3 +445,7 @@ INICIO Sección 10: TypeORM - Postgres
                 - Métodos BeforeInsert, BeforeUpdate
             
             Es una sección importante porque a partir de aquí, empezaremos a construir sobre ella relaciones, autenticación, autorización y websockets.
+    
+    Clase 123. Inicio de proyecto - TesloShop
+        nest new teslo-shop
+        https://typeorm.io/
