@@ -471,3 +471,5 @@ INICIO Sección 10: TypeORM - Postgres
     Clase 128. Create Product DTO
         Para DTO necesarios decoradores y class validator
             yarn add class-validator class-transformer
+    
+    Clase 129. Insertar usando TypeORM
