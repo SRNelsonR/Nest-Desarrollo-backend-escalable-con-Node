@@ -473,3 +473,4 @@ INICIO Sección 10: TypeORM - Postgres
             yarn add class-validator class-transformer
     
     Clase 129. Insertar usando TypeORM
+    Clase 130. Manejo de errores
