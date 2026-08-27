@@ -22,6 +22,19 @@ export class ProductsService {
     // const producto = new Product();
 
     try {
+
+      // if( !createProductDto.slug ){
+      //   createProductDto.slug = createProductDto.title
+      //   .toLowerCase()
+      //   .replaceAll(' ', '_')
+      //   .replaceAll("'", '');
+      // } else {
+      //   createProductDto.slug = createProductDto.title
+      //   .toLowerCase()
+      //   .replaceAll(' ', '_')
+      //   .replaceAll("'", '');
+      // }
+
       const product = this.productRepository.create(createProductDto);
       await this.productRepository.save( product );
 

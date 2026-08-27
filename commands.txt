@@ -474,3 +474,4 @@ INICIO Sección 10: TypeORM - Postgres
     
     Clase 129. Insertar usando TypeORM
     Clase 130. Manejo de errores
+    Clase 131. BeforeInsert y BeforeUpdate
