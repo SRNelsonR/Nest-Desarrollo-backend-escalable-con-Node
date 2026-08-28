@@ -476,3 +476,5 @@ INICIO Sección 10: TypeORM - Postgres
     Clase 130. Manejo de errores
     Clase 131. BeforeInsert y BeforeUpdate
     Clase 132. Get y Delete TypeORM
+    Clase 133. Paginar en TypeORM
+        nest g mo common
