@@ -478,3 +478,7 @@ INICIO Sección 10: TypeORM - Postgres
     Clase 132. Get y Delete TypeORM
     Clase 133. Paginar en TypeORM
         nest g mo common
+    
+    Clase 134. Buscar por Slug o UUID
+        yarn add uuid
+        yarn add -D @types/uuid
