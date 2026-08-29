@@ -488,3 +488,4 @@ INICIO Sección 10: TypeORM - Postgres
     
     Clase 136. Update en TypeORM
     Clase 137. BeforeUpdate
+    Clase 138. Nueva columna - Tags

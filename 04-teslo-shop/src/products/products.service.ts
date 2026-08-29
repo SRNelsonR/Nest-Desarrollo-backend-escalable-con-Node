@@ -8,7 +8,6 @@ import { PaginationDto } from '../common/dtos/pagination.dto';
 
 import { Product } from './entities/product.entity';
 import { validate as isUUID } from 'uuid';
-import { title } from 'process';
 
 @Injectable()
 export class ProductsService {
