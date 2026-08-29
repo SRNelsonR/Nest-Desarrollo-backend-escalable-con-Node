@@ -500,3 +500,19 @@ FIN Sección 10: TypeORM - Postgres
 INICIO Sección 11: Relaciones en TypeORM
 
     Clase 140. Introducción a la sección
+    Clase 141. Temas puntuales de la sección
+        Temas puntuales de la sección
+            Esta sección está cargada de contenido nuevo que les puede servir mucho, especialmente si trabajan con bases de datos relacionales.
+                Temas que veremos:
+                    1. Relaciones
+                        1.1 De uno a muchos
+                        1.2 Muchos a uno
+                    2. Query Runner
+                    3. Query Builder
+                    4. Transacciones
+                    5. Commits y Rollbacks
+                    6. Renombrar tablas
+                    7. Creación de un SEED
+                    8. Aplanar resultados
+            
+            La idea es hacer que nuestro endpoint de creación y actualización de producto permita la actualización de una tabla secundaria de la misma forma como lo hemos creado en la sección pasada.
