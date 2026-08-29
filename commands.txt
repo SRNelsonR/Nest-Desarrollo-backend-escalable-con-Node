@@ -489,3 +489,6 @@ INICIO Sección 10: TypeORM - Postgres
     Clase 136. Update en TypeORM
     Clase 137. BeforeUpdate
     Clase 138. Nueva columna - Tags
+    Clase 139. Código fuente de la sección
+        Aquí les dejo el código fuente de la sección por si lo llegan a necesitar:
+            https://github.com/Klerith/nest-teslo-shop/tree/fin-seccion-10
