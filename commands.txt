@@ -495,3 +495,6 @@ INICIO Sección 10: TypeORM - Postgres
 
 
 FIN Sección 10: TypeORM - Postgres
+####################################################################################
+
+INICIO Sección 11: Relaciones en TypeORM
