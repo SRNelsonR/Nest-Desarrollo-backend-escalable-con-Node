@@ -492,3 +492,6 @@ INICIO Sección 10: TypeORM - Postgres
     Clase 139. Código fuente de la sección
         Aquí les dejo el código fuente de la sección por si lo llegan a necesitar:
             https://github.com/Klerith/nest-teslo-shop/tree/fin-seccion-10
+
+
+FIN Sección 10: TypeORM - Postgres
