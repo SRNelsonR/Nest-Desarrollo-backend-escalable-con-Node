@@ -485,3 +485,5 @@ INICIO Sección 10: TypeORM - Postgres
     
     Clase 135. QueryBuilder
         Da seguridad para escapar caracteres que podrían hacer inyección sql
+    
+    Clase 136. Update en TypeORM
