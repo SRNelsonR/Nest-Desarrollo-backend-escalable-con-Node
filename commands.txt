@@ -482,3 +482,6 @@ INICIO Sección 10: TypeORM - Postgres
     Clase 134. Buscar por Slug o UUID
         yarn add uuid
         yarn add -D @types/uuid
+    
+    Clase 135. QueryBuilder
+        Da seguridad para escapar caracteres que podrían hacer inyección sql
