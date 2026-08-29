@@ -516,3 +516,5 @@ INICIO Sección 11: Relaciones en TypeORM
                     8. Aplanar resultados
             
             La idea es hacer que nuestro endpoint de creación y actualización de producto permita la actualización de una tabla secundaria de la misma forma como lo hemos creado en la sección pasada.
+    
+    Clase 142. Continuación de la sección
