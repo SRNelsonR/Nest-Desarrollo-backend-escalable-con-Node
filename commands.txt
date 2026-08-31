@@ -518,3 +518,5 @@ INICIO Sección 11: Relaciones en TypeORM
             La idea es hacer que nuestro endpoint de creación y actualización de producto permita la actualización de una tabla secundaria de la misma forma como lo hemos creado en la sección pasada.
     
     Clase 142. Continuación de la sección
+    Clase 143. Breve explicación de lo que haremos
+        https://gist.github.com/Klerith/1fb1b9f758bb0c5b2253dfc94f09e1b6
