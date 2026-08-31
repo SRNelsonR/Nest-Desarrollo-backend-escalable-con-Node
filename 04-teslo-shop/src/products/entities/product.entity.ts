@@ -57,7 +57,7 @@ export class Product {
         () => ProductImage,
         // ¿Cómo se relaciona ProductImage con nuestra tabla?
         (productImage) => productImage.product,
-        { cascade: true }
+        { cascade: true, eager: true }
     )
     images?: ProductImage[];
 

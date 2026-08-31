@@ -524,3 +524,4 @@ INICIO Sección 11: Relaciones en TypeORM
     Clase 144. ProductImage Entity
     Clase 145. OneToMany y ManyToOne
     Clase 146. Crear imágenes de producto
+    Clase 147. Aplanar las imágenes

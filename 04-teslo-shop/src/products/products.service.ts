@@ -61,14 +61,28 @@ export class ProductsService {
   }
 
   // TODO: Paginar - Ya resuelto
-  findAll( paginationDto: PaginationDto ) {
+  async findAll( paginationDto: PaginationDto ) {
     // return `This action returns all products`;
     const { limit = 10, offset = 0 } = paginationDto;
-    return this.productRepository.find({
+    const products = await this.productRepository.find({
       take: limit,
       skip: offset,
       // TODO: relaciones
+      relations: {
+        images: true
+      }
     });
+
+    // Otra opción
+    // return products.map( ({ images, ...rest }) => ({
+    //   ...rest,
+    //   images: images?.map( img => img.url )
+    // }))
+
+    return products.map( product => ({
+      ...product,
+      images: product.images?.map( img => img.url )
+    }))
   }
 
   async findOne( term: string ) {
@@ -80,6 +94,11 @@ export class ProductsService {
     let product;
 
     if( isUUID( term ) ){
+      // product = await this.productRepository.findOneBy({id: term});
+      // Otra opción con relaciones
+      // product = await this.productRepository.findOne({ where: { id: term }, relations: { images: true } });
+
+      // Otra forma fácil
       product = await this.productRepository.findOneBy({id: term});
     } else {
       // product = await this.productRepository.findOneBy({slug: term});
@@ -91,18 +110,30 @@ export class ProductsService {
       //   }).getOne();
       
       // Solucion
-      const queryBuilder = this.productRepository.createQueryBuilder();
+      const queryBuilder = this.productRepository.createQueryBuilder('prod');
       product = await queryBuilder
         .where('UPPER(title) =:title or slug =:slug', {
           title: term.toUpperCase(),
           slug: term.toLowerCase(),
-        }).getOne();
+        })
+        .leftJoinAndSelect('prod.images', 'prodImages')
+        .getOne();
     }
 
     if( !product ) 
         throw new NotFoundException(`Product with ${ term } not found.`);
 
-    return product;
+    // return { ...product, images: product.images.map( image => image.url ) };
+    return product
+  }
+
+  async findOnePlain ( term: string ) {
+    const { images = [], ...rest } = await this.findOne( term );
+
+    return {
+      ...rest,
+      images: images.map( image => image.url ),
+    }
   }
 
   async update(id: string, updateProductDto: UpdateProductDto) {
