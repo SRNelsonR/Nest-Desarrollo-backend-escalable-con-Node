@@ -520,3 +520,5 @@ INICIO Sección 11: Relaciones en TypeORM
     Clase 142. Continuación de la sección
     Clase 143. Breve explicación de lo que haremos
         https://gist.github.com/Klerith/1fb1b9f758bb0c5b2253dfc94f09e1b6
+    
+    Clase 144. ProductImage Entity
