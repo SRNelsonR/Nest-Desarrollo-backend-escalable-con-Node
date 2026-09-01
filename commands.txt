@@ -525,3 +525,5 @@ INICIO Sección 11: Relaciones en TypeORM
     Clase 145. OneToMany y ManyToOne
     Clase 146. Crear imágenes de producto
     Clase 147. Aplanar las imágenes
+    Clase 148. Query Runner
+        https://orkhan.gitbook.io/typeorm/docs/insert-query-builder (Page not found)
