@@ -540,3 +540,6 @@ INICIO Sección 11: Relaciones en TypeORM
     Clase 154. Código fuente de la sección
         Aquí les dejo el código fuente de la sección por si lo quieren comparar contra el mío. Recuerden leer el README para reconstruirlo en el caso de ser necesario.
             https://github.com/Klerith/nest-teslo-shop/tree/fin-seccion-11
+
+
+FIN Sección 11: Relaciones en TypeORM
