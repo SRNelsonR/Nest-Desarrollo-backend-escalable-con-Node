@@ -1,7 +1,7 @@
 import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
 import { Product } from './';
 
-@Entity()
+@Entity({ name: 'product_images' })
 export class ProductImage {
     
     // Al dejarlo como esta abajo seria lo mismo que @PrimaryGeneratedColumn('increment') ya es autoincrementable

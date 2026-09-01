@@ -536,3 +536,4 @@ INICIO Sección 11: Relaciones en TypeORM
         nest g res seed --no-spec
     
     Clase 152. Insertar de forma masiva
+    Clase 153. Renombrar tablas
