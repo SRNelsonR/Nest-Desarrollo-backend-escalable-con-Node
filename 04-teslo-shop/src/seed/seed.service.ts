@@ -1,5 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { ProductsService } from './../products/products.service';
+import { initialData } from './data/seed-data';
 
 @Injectable()
 export class SeedService {
@@ -19,6 +20,27 @@ export class SeedService {
 
   private async insertNewProducts(){
     await this.productsService.deleteAllProducts();
+
+    const products = initialData.products;
+
+    // De esta forma no funciona
+    // const insertPromises = [];
+    // products.forEach( product => {
+    //   insertPromises.push( this.productsService.create( product ) );
+    // });
+
+    // Otra forma con any, no recomendado el tipo de dato any
+    // const insertPromises: Promise<any>[] = [];
+    // products.forEach( product => {
+    //   insertPromises.push( this.productsService.create( product ) );
+    // });
+
+    // Una mejor solución
+    const insertPromises = products.map( product => 
+      this.productsService.create(product)
+    );
+
+    await Promise.all( insertPromises );
 
     return true;
   }

@@ -534,3 +534,5 @@ INICIO Sección 11: Relaciones en TypeORM
         https://gist.github.com/Klerith/1fb1b9f758bb0c5b2253dfc94f09e1b6
 
         nest g res seed --no-spec
+    
+    Clase 152. Insertar de forma masiva
