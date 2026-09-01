@@ -543,3 +543,6 @@ INICIO Sección 11: Relaciones en TypeORM
 
 
 FIN Sección 11: Relaciones en TypeORM
+####################################################################################
+
+INICIO Sección 12: Carga de archivos
