@@ -547,3 +547,8 @@ FIN Sección 11: Relaciones en TypeORM
 
 INICIO Sección 12: Carga de archivos
     Clase 155. Inicio de sección
+    Clase 156. Temas puntuales de la sección
+        Temas puntuales de la sección
+            Esta sección es bien interesante porque trabajaremos con la carga de archivos a nuestro backend. Idealmente recuerden, que no es recomendado colocar archivos físicamente en nuestro backend, lo que se recomienda es subirlos y colocarlos en un hosting o servicio diferente.
+            Pero el conocimiento de tomar y ubicar el archivo en otro lugar de nuestro file system es bastante útil.
+            Aquí veremos validaciones y control de carga de cualquier archivo hacia nuestro backend.
