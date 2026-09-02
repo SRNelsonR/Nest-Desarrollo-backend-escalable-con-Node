@@ -570,3 +570,4 @@ INICIO Sección 12: Carga de archivos
         yarn add uuid
     
     Clase 162. Servir archivos de manera controlada
+    Clase 163. Retornar el secureUrl

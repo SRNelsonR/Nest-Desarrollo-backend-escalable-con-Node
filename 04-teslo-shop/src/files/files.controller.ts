@@ -10,10 +10,14 @@ import { FilesService } from './files.service';
 // import { fileNamer } from './helpers/fileNamer.helper';
 import { fileFilter, fileNamer } from './helpers';
 import type { Response } from 'express';
+import { ConfigService } from '@nestjs/config';
 
 @Controller('files')
 export class FilesController {
-  constructor(private readonly filesService: FilesService) {}
+  constructor(
+    private readonly filesService: FilesService,
+    private readonly configService: ConfigService,
+  ) {}
 
   // Se podría hacer así en caso de querer definir un tipo dinámico, tipo: product/avatar
   // @Get(':type')
@@ -51,7 +55,7 @@ export class FilesController {
     }
 
     // const secureUrl = `${ file.filename }`;
-    const secureUrl = `http://localhost:3000/api/files/product/ceaa20bf-cd46-48c6-afb8-5fe661ecd2fb.png`;
+    const secureUrl = `${ this.configService.get('HOST_API') }/files/product/${ file.filename }`;
 
     // console.log(file);
     return {
