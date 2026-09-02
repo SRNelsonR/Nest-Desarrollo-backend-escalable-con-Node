@@ -566,3 +566,5 @@ INICIO Sección 12: Carga de archivos
     
     Clase 159. Validar archivos
     Clase 160. Guardar imagen en filesystem
+    Clase 161. Renombrar el archivo subido
+        yarn add uuid
