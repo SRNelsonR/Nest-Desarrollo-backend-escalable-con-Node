@@ -565,3 +565,4 @@ INICIO Sección 12: Carga de archivos
             Cloudinary
     
     Clase 159. Validar archivos
+    Clase 160. Guardar imagen en filesystem
