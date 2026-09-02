@@ -563,3 +563,5 @@ INICIO Sección 12: Carga de archivos
         Imagenes en el mismo servidor de la aplicación no es recomendable, hay otros servicios que se pueden usar:
             Bucket AWS
             Cloudinary
+    
+    Clase 159. Validar archivos
