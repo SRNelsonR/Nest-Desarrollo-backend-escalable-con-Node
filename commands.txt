@@ -546,6 +546,7 @@ FIN Sección 11: Relaciones en TypeORM
 ####################################################################################
 
 INICIO Sección 12: Carga de archivos
+
     Clase 155. Inicio de sección
     Clase 156. Temas puntuales de la sección
         Temas puntuales de la sección
@@ -589,3 +590,5 @@ FIN Sección 12: Carga de archivos
 ####################################################################################
 
 INICIO Sección 13: Autenticación de autorización
+
+    Clase 167. Introducción a la sección
