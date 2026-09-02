@@ -578,3 +578,5 @@ INICIO Sección 12: Carga de archivos
 
         yarn remove @nestjs/serve-static
         yarn add @nestjs/serve-static@11
+    
+    Clase 165. Colocar imágenes en el directorio estático
