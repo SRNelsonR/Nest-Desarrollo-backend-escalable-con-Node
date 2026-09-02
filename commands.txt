@@ -611,3 +611,5 @@ INICIO Sección 13: Autenticación de autorización
                 - Y mucho más
         
         Hay varias tareas dentro de esta sección que esperaría que intenten llevar con calma, todo lo que esta sección contiene puede ser abrumador.
+    
+    Clase 169. Continuación de proyecto
