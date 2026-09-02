@@ -571,3 +571,10 @@ INICIO Sección 12: Carga de archivos
     
     Clase 162. Servir archivos de manera controlada
     Clase 163. Retornar el secureUrl
+    Clase 164. Otras formas de desplegar archivos
+        products-220722-161630.zip
+        npm i @nestjs/serve-static
+        yarn add @nestjs/serve-static
+
+        yarn remove @nestjs/serve-static
+        yarn add @nestjs/serve-static@11
