@@ -554,3 +554,12 @@ INICIO Sección 12: Carga de archivos
             Aquí veremos validaciones y control de carga de cualquier archivo hacia nuestro backend.
     
     Clase 157. Continuación de la sección
+    Clase 158. Subir un archivo al backend
+        https://docs.nestjs.com/techniques/file-upload
+
+        nest g res files --no-spec
+        yarn add -D @types/multer
+
+        Imagenes en el mismo servidor de la aplicación no es recomendable, hay otros servicios que se pueden usar:
+            Bucket AWS
+            Cloudinary
