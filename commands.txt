@@ -618,3 +618,7 @@ INICIO Sección 13: Autenticación de autorización
     
     Clase 171. Crear usuario
         https://gist.github.com/Klerith/c77edd9d86174aa68efbfddd21f053a2
+    
+    Clase 172. Encriptar la contraseña
+        yarn add bcrypt
+        yarn add -D @types/bcrypt
