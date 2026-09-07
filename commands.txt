@@ -633,3 +633,5 @@ INICIO Sección 13: Autenticación de autorización
     Clase 175. Módulos Asíncronos
     Clase 176. JwtStrategy
         https://www.jwt.io/
+    
+    Clase 177. JwtStrategy - Parte 2
