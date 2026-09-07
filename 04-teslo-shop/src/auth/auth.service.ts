@@ -1,4 +1,8 @@
-import { BadRequestException, Injectable, InternalServerErrorException, UnauthorizedException } from '@nestjs/common';
+import { 
+  BadRequestException, Injectable, InternalServerErrorException, 
+  UnauthorizedException 
+} from '@nestjs/common';
+import { JwtService } from '@nestjs/jwt';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
@@ -7,13 +11,16 @@ import * as bcrypt from 'bcrypt';
 // import { CreateUserDto } from './dto/create-user.dto';
 import { User } from './entities/user.entity';
 import { CreateUserDto, LoginUserDto } from './dto';
+import { JwtPayload } from './interfaces/jwt-payload.interfaces';
 
 @Injectable()
 export class AuthService {
 
   constructor(
     @InjectRepository(User)
-    private readonly userRepository: Repository<User>
+    private readonly userRepository: Repository<User>,
+    
+    private readonly jwtService: JwtService,
   ){}
 
   async create(createUserDto: CreateUserDto) {
@@ -30,7 +37,10 @@ export class AuthService {
       // Solución al error anterior
       const { password: _, ...userWihoutPass } = savedUser;
       
-      return userWihoutPass;
+      return {
+      ...userWihoutPass,
+      token: this.getJwtToken({ email: user.email }),
+    };
       // TODO: Retornar el JWT de acceso
 
     } catch (error) {
@@ -41,6 +51,8 @@ export class AuthService {
 
   async login( loginUserDto: LoginUserDto ){
     
+    loginUserDto.email = loginUserDto.email.toLowerCase().trim();
+
     const { password, email } = loginUserDto;
 
     const user = await this.userRepository.findOne({
@@ -54,14 +66,23 @@ export class AuthService {
     if( !bcrypt.compareSync( password, user.password ) )
       throw new UnauthorizedException('Credentials are not valid (password)');
 
-    return user;
-    // TODO: retornar JWT
+    return {
+      ...user,
+      token: this.getJwtToken({ email: user.email }),
+    };
+    // TODO: retornar JWT -- Hecho
 
     // try {
       
     // } catch (error) {
     //   this.handelDBErrors(error);
     // }
+  }
+
+  private getJwtToken( payload: JwtPayload ){
+    const token = this.jwtService.sign( payload );
+
+    return token;
   }
 
   private handelDBErrors( error: any ): never {
