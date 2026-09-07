@@ -631,3 +631,5 @@ INICIO Sección 13: Autenticación de autorización
         yarn add -D @types/passport-jwt
     
     Clase 175. Módulos Asíncronos
+    Clase 176. JwtStrategy
+        https://www.jwt.io/
