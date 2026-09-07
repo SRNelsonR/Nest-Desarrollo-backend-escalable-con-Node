@@ -629,3 +629,5 @@ INICIO Sección 13: Autenticación de autorización
         yarn add @nestjs/passport passport
         yarn add @nestjs/jwt passport-jwt
         yarn add -D @types/passport-jwt
+    
+    Clase 175. Módulos Asíncronos
