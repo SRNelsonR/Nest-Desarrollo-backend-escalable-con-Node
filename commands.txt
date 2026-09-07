@@ -624,3 +624,8 @@ INICIO Sección 13: Autenticación de autorización
         yarn add -D @types/bcrypt
     
     Clase 173. Login de usuario
+    Clase 174. Nest Authentication - Passport
+        https://docs.nestjs.com/recipes/passport
+        yarn add @nestjs/passport passport
+        yarn add @nestjs/jwt passport-jwt
+        yarn add -D @types/passport-jwt
