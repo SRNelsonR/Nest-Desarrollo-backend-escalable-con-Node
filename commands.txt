@@ -636,3 +636,4 @@ INICIO Sección 13: Autenticación de autorización
     
     Clase 177. JwtStrategy - Parte 2
     Clase 178. Generar un JWT
+    Clase 179. Private Route - General
