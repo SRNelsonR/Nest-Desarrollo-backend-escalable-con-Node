@@ -13,7 +13,7 @@ import { GetUser, GetRawHeaders } from './decorators';
 // import { LoginUserDto } from './dto/login-user.dto';
 import { CreateUserDto, LoginUserDto } from './dto';
 import { User } from './entities/user.entity';
-import { UserRoleGuard } from './guards/user-roles/user-role.guard';
+import { UserRoleGuard } from './guards/user-role.guard';
 
 @Controller('auth')
 export class AuthController {

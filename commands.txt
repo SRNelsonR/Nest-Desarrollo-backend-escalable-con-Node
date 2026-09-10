@@ -642,3 +642,5 @@ INICIO Sección 13: Autenticación de autorización
     Clase 182. Tarea - Custom Decorators
     Clase 183. Custom Guard y Custom Decorator
         nest g gu auth/guards/userRoles --no-spec
+    
+    Clase 184. Verificar rol del usuario
