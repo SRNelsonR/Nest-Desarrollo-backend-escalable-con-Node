@@ -640,3 +640,5 @@ INICIO Sección 13: Autenticación de autorización
     Clase 180. Tarea: Cambiar email por id en el Payload
     Clase 181. Custom Property Decorator - GetUser
     Clase 182. Tarea - Custom Decorators
+    Clase 183. Custom Guard y Custom Decorator
+        nest g gu auth/guards/userRoles --no-spec
