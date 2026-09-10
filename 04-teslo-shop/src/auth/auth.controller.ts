@@ -8,12 +8,14 @@ import type { IncomingHttpHeaders } from 'http';
 import { AuthService } from './auth.service';
 // import { GetUser } from './decorators/get-user.decorators';
 import { GetUser, GetRawHeaders } from './decorators';
+import { RoleProtected } from './decorators/role-protected.decorator';
 
 // import { CreateUserDto } from './dto/create-user.dto';
 // import { LoginUserDto } from './dto/login-user.dto';
 import { CreateUserDto, LoginUserDto } from './dto';
 import { User } from './entities/user.entity';
 import { UserRoleGuard } from './guards/user-role.guard';
+import { ValidRoles } from './interfaces';
 
 @Controller('auth')
 export class AuthController {
@@ -58,8 +60,13 @@ export class AuthController {
 
   @Get('private2')
   // Verificacion de roles
-  @SetMetadata('roles', ['admin', 'super-user'])
-  @UseGuards( AuthGuard(), UserRoleGuard )
+  // @SetMetadata('roles', ['admin', 'super-user'])
+  
+  // Otra forma de verificar roles
+  // @RoleProtected() al dejarlo asi cualquier persona va a poder entrar
+  // Cada uno de los definidos aqui significa que son los que tienen acceso
+  @RoleProtected( ValidRoles.superUser, ValidRoles.admin, ValidRoles.user )
+  @UseGuards( AuthGuard(), UserRoleGuard ) // Autenticacion, Autorizacion
   privateRoute2(
     @GetUser() user: User
   ){

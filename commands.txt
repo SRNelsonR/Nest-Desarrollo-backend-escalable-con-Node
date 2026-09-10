@@ -644,3 +644,5 @@ INICIO Sección 13: Autenticación de autorización
         nest g gu auth/guards/userRoles --no-spec
     
     Clase 184. Verificar rol del usuario
+    Clase 185. Custom Decorator - RoleProtected
+        nest g d auth/decorators/roleProtected --no-spec
