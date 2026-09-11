@@ -7,8 +7,9 @@ import type { IncomingHttpHeaders } from 'http';
 
 import { AuthService } from './auth.service';
 // import { GetUser } from './decorators/get-user.decorators';
-import { GetUser, GetRawHeaders } from './decorators';
-import { RoleProtected } from './decorators/role-protected.decorator';
+// import { RoleProtected } from './decorators/role-protected.decorator';
+// import { Auth } from './decorators/auth.decorator';
+import { Auth, GetUser, GetRawHeaders, RoleProtected } from './decorators';
 
 // import { CreateUserDto } from './dto/create-user.dto';
 // import { LoginUserDto } from './dto/login-user.dto';
@@ -68,6 +69,20 @@ export class AuthController {
   @RoleProtected( ValidRoles.superUser, ValidRoles.admin, ValidRoles.user )
   @UseGuards( AuthGuard(), UserRoleGuard ) // Autenticacion, Autorizacion
   privateRoute2(
+    @GetUser() user: User
+  ){
+    return {
+      ok: true,
+      user,
+    }
+  }
+
+  @Get('private3')
+  // Verificacion de roles un único decorador
+  // @RoleProtected( ValidRoles.superUser, ValidRoles.admin, ValidRoles.user )
+  // @UseGuards( AuthGuard(), UserRoleGuard ) // Autenticacion, Autorizacion
+  @Auth( ValidRoles.admin )
+  privateRoute3(
     @GetUser() user: User
   ){
     return {

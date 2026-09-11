@@ -646,3 +646,6 @@ INICIO Sección 13: Autenticación de autorización
     Clase 184. Verificar rol del usuario
     Clase 185. Custom Decorator - RoleProtected
         nest g d auth/decorators/roleProtected --no-spec
+    
+    Clase 186. Composición de Decoradores
+        https://docs.nestjs.com/custom-decorators#decorator-composition
