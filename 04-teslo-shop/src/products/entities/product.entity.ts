@@ -1,8 +1,10 @@
 import { 
     BeforeInsert, BeforeUpdate, Column, Entity, 
+    ManyToOne, 
     OneToMany, PrimaryGeneratedColumn 
 } from "typeorm";
 import { ProductImage } from './';
+import { User } from "../../auth/entities/user.entity";
 
 @Entity({ name: 'products' })
 export class Product {
@@ -60,6 +62,16 @@ export class Product {
         { cascade: true, eager: true }
     )
     images?: ProductImage[];
+
+    // Saber que usuario creo el producto
+    @ManyToOne(
+        // Con que entidad se va a relacionar
+        () => User,
+        ( user ) => user.product,
+        // Esto para traer automaticamente quien creo ese producto
+        { eager: true }
+    )
+    user!: User
 
     @BeforeInsert()
     checkSlugInsert() {

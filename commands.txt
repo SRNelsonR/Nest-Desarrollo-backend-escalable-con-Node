@@ -651,3 +651,4 @@ INICIO Sección 13: Autenticación de autorización
         https://docs.nestjs.com/custom-decorators#decorator-composition
     
     Clase 187. Auth en otros módulos
+    Clase 188. Usuario que creó el producto
