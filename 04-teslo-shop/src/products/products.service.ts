@@ -9,6 +9,7 @@ import { PaginationDto } from '../common/dtos/pagination.dto';
 // import { Product } from './entities/product.entity';
 import { validate as isUUID } from 'uuid';
 import { Product, ProductImage } from './entities';
+import { User } from '../auth/entities/user.entity';
 
 @Injectable()
 export class ProductsService {
@@ -26,7 +27,7 @@ export class ProductsService {
     private readonly dataSource: DataSource,
   ){}
 
-  async create(createProductDto: CreateProductDto) {
+  async create(createProductDto: CreateProductDto, user: User) {
 
     // Usualmente no se quiere hacer de esta manera, Lo mejor es usar el patron repositorio
     // const producto = new Product();
@@ -50,7 +51,9 @@ export class ProductsService {
       const product = this.productRepository.create({
         ...productDetails,
         // No es necesario enviar el id del producto porque typeorm infiere el id al crear el producto
-        images: images.map( image => this.productImageRepository.create({ url: image }) )
+        images: images.map( image => this.productImageRepository.create({ url: image }) ),
+        // Usuario que crea el producto
+        user,
       });
       await this.productRepository.save( product );
 
@@ -138,7 +141,7 @@ export class ProductsService {
     }
   }
 
-  async update(id: string, updateProductDto: UpdateProductDto) {
+  async update(id: string, updateProductDto: UpdateProductDto, user: User) {
     // return `This action updates a #${id} product`;
     const { images, ...toUpdate } = updateProductDto;
     const product = await this.productRepository.preload({
@@ -167,6 +170,8 @@ export class ProductsService {
       //   product.images = await this.productImageRepository.findBy({ product: { id } })
       // }
 
+      // Colocar usuario que actualiza el producto
+      product.user = user;
       await queryRunner.manager.save( product );
 
       await queryRunner.commitTransaction();
