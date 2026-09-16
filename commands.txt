@@ -662,3 +662,6 @@ INICIO Sección 13: Autenticación de autorización
 
 
 FIN Sección 13: Autenticación de autorización
+####################################################################################
+
+INICIO Sección 14: Documentación - OpenAPI
