@@ -655,3 +655,4 @@ INICIO Sección 13: Autenticación de autorización
     Clase 189. Insertar userId en los productos
     Clase 190. SEED de usuarios, productos e imágenes
     Clase 191. Encriptar contraseña de los usuarios del SEED
+    Clase 192. Check AuthStatus

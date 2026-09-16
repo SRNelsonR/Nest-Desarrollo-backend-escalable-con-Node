@@ -31,6 +31,17 @@ export class AuthController {
   login(@Body() loginUserDto: LoginUserDto) {
     return this.authService.login(loginUserDto);
   }
+  
+  @Get('check-status')
+  @Auth()
+  checkAuthStatus(
+    // Recibe algo
+    // @GetUser('id') id: string
+    @GetUser() user: User
+  ){
+    // return this.authService.checkAuthStatus( /* id del usuario o user */ );
+    return this.authService.checkAuthStatus( user );
+  }
 
   @Get('private')
   @UseGuards( AuthGuard() )
