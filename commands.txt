@@ -653,3 +653,4 @@ INICIO Sección 13: Autenticación de autorización
     Clase 187. Auth en otros módulos
     Clase 188. Usuario que creó el producto
     Clase 189. Insertar userId en los productos
+    Clase 190. SEED de usuarios, productos e imágenes
