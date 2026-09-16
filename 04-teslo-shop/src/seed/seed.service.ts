@@ -49,6 +49,21 @@ export class SeedService {
 
     // Otra forma en lugar de areglo de promesas
     // insert multilinea insert into (....) (....)
+
+    // Encriptar la contraseña
+    // const users: User[] = [];
+    // seedUsers.forEach( user => {
+    //   const { password, ...restData } = user;
+    //   // users.push( this.userRepository.create(user) );
+    //   users.push( this.userRepository.create({
+    //     ...restData,
+    //     password: bcrypt.hashSync( password, 10 )
+    //   }));
+    // });
+
+    // const dbUsers = await this.userRepository.save( users );
+
+    // Encriptar la contraseña en el seed data
     const users: User[] = [];
     seedUsers.forEach( user => {
       users.push( this.userRepository.create(user) );
