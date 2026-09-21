@@ -694,3 +694,6 @@ INICIO Sección 14: Documentación - OpenAPI
 
 
 FIN Sección 14: Documentación - OpenAPI
+####################################################################################
+
+INICIO Sección 15: Websockets
