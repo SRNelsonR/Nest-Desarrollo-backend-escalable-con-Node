@@ -1,4 +1,7 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete, ParseUUIDPipe, Query } from '@nestjs/common';
+import { ApiResponse, ApiTags } from '@nestjs/swagger';
+
+import { Product } from './entities';
 import { ProductsService } from './products.service';
 import { CreateProductDto } from './dto/create-product.dto';
 import { UpdateProductDto } from './dto/update-product.dto';
@@ -8,6 +11,8 @@ import { Auth, GetUser } from '../auth/decorators';
 import { ValidRoles } from '../auth/interfaces';
 import { User } from '../auth/entities/user.entity';
 
+// No se si sea necesario, ya separa por "tags" swagger
+@ApiTags('Products')
 @Controller('products')
 // Para indicar que cualquiera que use estas rutas tiene ue estar autenticado
 // @Auth()
@@ -17,6 +22,9 @@ export class ProductsController {
   @Post()
   // @Auth( ValidRoles.admin )
   @Auth()
+  @ApiResponse({ status: 201, description: 'Product was created', type: Product })
+  @ApiResponse({ status: 400, description: 'Bad Request' })
+  @ApiResponse({ status: 403, description: 'Forbidden. Token related.' })
   create(
     @Body() createProductDto: CreateProductDto,
     @GetUser() user: User,

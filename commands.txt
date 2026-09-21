@@ -682,3 +682,5 @@ INICIO Sección 14: Documentación - OpenAPI
         Estoy usando nest 11 entonces hay que instalar swagger 11
         yarn remove @nestjs/swagger
         yarn add @nestjs/swagger@11
+    
+    Clase 199. Tags, ApiProperty y ApiResponse
