@@ -675,3 +675,10 @@ INICIO Sección 14: Documentación - OpenAPI
     
     Clase 196. Continuación de la sección
     Clase 197. Documentación mediante Postman
+    Clase 198. Nestjs swagger - OpenAPI Specification
+        https://docs.nestjs.com/openapi/introduction
+        yarn add @nestjs/swagger
+
+        Estoy usando nest 11 entonces hay que instalar swagger 11
+        yarn remove @nestjs/swagger
+        yarn add @nestjs/swagger@11
