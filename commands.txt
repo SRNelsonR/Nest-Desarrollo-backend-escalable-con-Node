@@ -674,3 +674,4 @@ INICIO Sección 14: Documentación - OpenAPI
                 - Nest Swagger
     
     Clase 196. Continuación de la sección
+    Clase 197. Documentación mediante Postman
