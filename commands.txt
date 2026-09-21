@@ -684,3 +684,4 @@ INICIO Sección 14: Documentación - OpenAPI
         yarn add @nestjs/swagger@11
     
     Clase 199. Tags, ApiProperty y ApiResponse
+    Clase 200. Expandir el ApiProperty
