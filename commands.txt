@@ -697,3 +697,4 @@ FIN Sección 14: Documentación - OpenAPI
 ####################################################################################
 
 INICIO Sección 15: Websockets
+    Clase 204. Introducción a la sección
