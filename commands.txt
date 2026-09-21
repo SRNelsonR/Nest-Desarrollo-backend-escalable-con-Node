@@ -686,3 +686,4 @@ INICIO Sección 14: Documentación - OpenAPI
     Clase 199. Tags, ApiProperty y ApiResponse
     Clase 200. Expandir el ApiProperty
     Clase 201. Documentar DTOs
+    Clase 202. Tarea - Documentación
