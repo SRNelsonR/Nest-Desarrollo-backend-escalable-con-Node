@@ -738,3 +738,4 @@ INICIO Sección 15: Websockets
         yarn add socket.io-client
     
     Clase 210. Server - Mantener identificados los clientes
+    Clase 211. Cliente - Detectar conexión y desconexión
