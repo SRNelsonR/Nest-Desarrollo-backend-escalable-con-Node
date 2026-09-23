@@ -723,3 +723,9 @@ INICIO Sección 15: Websockets
         Estoy usando nest 11 entonces hay que instalar la versión 11 de esas dependencias
             yarn remove @nestjs/websockets @nestjs/platform-socket.io
             yarn add @nestjs/websockets@11 @nestjs/platform-socket.io@11
+    
+    Clase 208. Server - Escuchar conexiones y desconexiones
+        Servidor: Será la aplicación de Nest
+        Cliente: Aplicación movil/web que es la que se conecta al servidor de nest
+
+        yarn add socket.io
