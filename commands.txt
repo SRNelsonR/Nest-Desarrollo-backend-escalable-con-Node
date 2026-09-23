@@ -729,3 +729,10 @@ INICIO Sección 15: Websockets
         Cliente: Aplicación movil/web que es la que se conecta al servidor de nest
 
         yarn add socket.io
+    
+    Clase 209. Cliente - Vite Vanilla TypeScript
+        npm create vite
+        Luego cd <project>
+        Luego yarn
+
+        yarn add socket.io-client
