@@ -710,3 +710,5 @@ INICIO Sección 15: Websockets
                 - Usar mismo mecanismos de autenticación previamente creado
                 - Desconectar sockets manualmente
                 - Prevenir doble conexión de usuarios autenticados.
+    
+    Clase 206. Continuación de la sección
