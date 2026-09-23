@@ -712,3 +712,14 @@ INICIO Sección 15: Websockets
                 - Prevenir doble conexión de usuarios autenticados.
     
     Clase 206. Continuación de la sección
+    Clase 207. Websocket Gateways
+        https://docs.nestjs.com/websockets/gateways
+        nest g res messagesWs --no-spec
+            Opción "WebSockets"
+            Opción No para CRUD
+        
+        yarn add @nestjs/websockets @nestjs/platform-socket.io
+
+        Estoy usando nest 11 entonces hay que instalar la versión 11 de esas dependencias
+            yarn remove @nestjs/websockets @nestjs/platform-socket.io
+            yarn add @nestjs/websockets@11 @nestjs/platform-socket.io@11
