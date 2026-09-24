@@ -19,6 +19,12 @@ export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconne
   handleConnection( client: Socket ) {
     // console.log('Cliente conectado: ', client.id);
     this.messagesWsService.registerClient( client );
+    
+    // Adicionar al usuario a una sala especifica
+    // client.join('ventas');
+    // Emitir a esa sala especifica con sus usurios
+    // this.wss.to('ventas').emit('');
+
     // console.log({ conectados: this.messagesWsService.getConnectedClients() });
 
     this.wss.emit('clients-updated', this.messagesWsService.getConnectedClients());
@@ -39,8 +45,28 @@ export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconne
   @SubscribeMessage('message-from-client')
   // Este nnombre es indiferente, se puede poner otro
   // handleMessageFromClient(){
+  // Pueder ser asincrono
   onMessageFromClient( client: Socket, payload: NewMessageDto ){
-    console.log( client.id, payload );
+    // console.log( client.id, payload );
+    // message-from-server
+    
+    //! Emite únicamente al cliente aqui (client) no a todos.
+    // client.emit('message-from-server', {
+    //   fullName: 'Soy yo!',
+    //   message: payload.message || 'no-message!!',
+    // });
+
+    //! Emitir a todos los clientes, MENOS al cliente inicial (el que emite el mensaje inicialmente)
+    // client.broadcast.emit('message-from-server', {
+    //   fullName: 'Soy yo!',
+    //   message: payload.message || 'no-message!!',
+    // });
+
+    // A todos incluido el que lo envia
+    this.wss.emit('message-from-server', {
+      fullName: 'Soy yo!',
+      message: payload.message || 'no-message!!',
+    });
   }
 
 }
