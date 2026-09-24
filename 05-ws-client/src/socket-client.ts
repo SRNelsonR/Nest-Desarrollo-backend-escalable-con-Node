@@ -1,8 +1,13 @@
 import { Manager, Socket } from 'socket.io-client';
 
-export const connectToServer = () => {
+export const connectToServer = ( token: string ) => {
     // localhost:3000/socket.io/socket.io.js
-    const manager = new Manager('localhost:3000/socket.io/socket.io.js');
+    const manager = new Manager('localhost:3000/socket.io/socket.io.js', {
+        extraHeaders: {
+            hola: 'mundo',
+            authentication: token,
+        }
+    });
 
     // manager.socket(<namespace>);
     const socket = manager.socket('/');

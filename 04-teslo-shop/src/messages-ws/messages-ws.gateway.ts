@@ -17,6 +17,9 @@ export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconne
   ) {}
   
   handleConnection( client: Socket ) {
+    // console.log(client);
+    const token = client.handshake.headers.authentication as string;
+    console.log({token});
     // console.log('Cliente conectado: ', client.id);
     this.messagesWsService.registerClient( client );
     
@@ -49,7 +52,7 @@ export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconne
   onMessageFromClient( client: Socket, payload: NewMessageDto ){
     // console.log( client.id, payload );
     // message-from-server
-    
+
     //! Emite únicamente al cliente aqui (client) no a todos.
     // client.emit('message-from-server', {
     //   fullName: 'Soy yo!',
