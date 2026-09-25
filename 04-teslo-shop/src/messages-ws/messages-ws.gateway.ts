@@ -3,9 +3,11 @@ import {
   SubscribeMessage, 
   WebSocketGateway, WebSocketServer
 } from '@nestjs/websockets';
+import { JwtService } from '@nestjs/jwt';
 import { Server, Socket } from 'socket.io';
 import { MessagesWsService } from './messages-ws.service';
 import { NewMessageDto } from './dtos/new-message.dto';
+import { JwtPayload } from '../auth/interfaces';
 
 @WebSocketGateway({ cors: true })
 export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconnect {
@@ -13,14 +15,26 @@ export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconne
   @WebSocketServer() wss!: Server;
 
   constructor(
-    private readonly messagesWsService: MessagesWsService
+    private readonly messagesWsService: MessagesWsService,
+    private readonly jwtService: JwtService,
   ) {}
   
   handleConnection( client: Socket ) {
     // console.log(client);
     const token = client.handshake.headers.authentication as string;
-    console.log({token});
+    // console.log({token});
     // console.log('Cliente conectado: ', client.id);
+
+    let payload: JwtPayload;
+    try {
+      payload = this.jwtService.verify( token );
+    } catch (error) {
+      client.disconnect();
+      return;
+    }
+
+    console.log({payload})
+
     this.messagesWsService.registerClient( client );
     
     // Adicionar al usuario a una sala especifica
