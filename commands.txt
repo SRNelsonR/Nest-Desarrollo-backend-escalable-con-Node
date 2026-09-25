@@ -746,3 +746,10 @@ INICIO Sección 15: Websockets
     Clase 216. Validar JWT del Handshake
     Clase 217. Enlazar Socket con Usuario
     Clase 218. Desconectar usuarios duplicados
+    Clase 219. Código fuente de la sección
+        Código fuente de la sección
+            Aquí les dejo el código fuente de la sección por si lo quieren comparar contra el mío. Recuerden leer el README para reconstruirlo en el caso de ser necesario.
+                Backend
+                    https://github.com/Klerith/nest-teslo-shop/tree/fin-seccion-15
+                Frontend
+                    https://github.com/Klerith/-nest-teslo-shop-front
