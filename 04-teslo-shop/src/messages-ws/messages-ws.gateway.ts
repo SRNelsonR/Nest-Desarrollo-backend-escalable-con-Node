@@ -19,7 +19,7 @@ export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconne
     private readonly jwtService: JwtService,
   ) {}
   
-  handleConnection( client: Socket ) {
+  async handleConnection( client: Socket ) {
     // console.log(client);
     const token = client.handshake.headers.authentication as string;
     // console.log({token});
@@ -28,14 +28,15 @@ export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconne
     let payload: JwtPayload;
     try {
       payload = this.jwtService.verify( token );
+      await this.messagesWsService.registerClient( client, payload.id );
     } catch (error) {
       client.disconnect();
       return;
     }
 
-    console.log({payload})
+    // console.log({payload})
 
-    this.messagesWsService.registerClient( client );
+    // this.messagesWsService.registerClient( client, payload.id );
     
     // Adicionar al usuario a una sala especifica
     // client.join('ventas');
@@ -81,7 +82,7 @@ export class MessagesWsGateway implements OnGatewayConnection, OnGatewayDisconne
 
     // A todos incluido el que lo envia
     this.wss.emit('message-from-server', {
-      fullName: 'Soy yo!',
+      fullName: this.messagesWsService.getUserFullName( client.id ),
       message: payload.message || 'no-message!!',
     });
   }

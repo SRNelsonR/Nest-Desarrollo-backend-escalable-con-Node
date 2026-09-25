@@ -744,3 +744,4 @@ INICIO Sección 15: Websockets
     Clase 214. Formas de emitir desde el servidor
     Clase 215. Preparar cliente para enviar JWT
     Clase 216. Validar JWT del Handshake
+    Clase 217. Enlazar Socket con Usuario
