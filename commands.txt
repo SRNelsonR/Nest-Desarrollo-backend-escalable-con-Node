@@ -760,3 +760,15 @@ FIN Sección 15: Websockets
 
 INICIO Sección 16: Desplegar toda la aplicación a producción
     Clase 220. Introducción a la sección
+    Clase 221. Temas puntuales de la sección
+        Temas puntuales de la sección
+            Esta sección trabajaremos en desplegar todo el backend y frontend, pero puntualmente aprenderemos:
+                - Configuración de variables de entorno
+                - Postgres en la nube
+                - Despliegue en Netlify
+                - Pruebas de aplicación
+                - CORS
+                - Generar build de producción VITE
+                - y mucho más
+
+            Espero que esta sección les guste mucho y nos vemos en el siguiente video!! :D
