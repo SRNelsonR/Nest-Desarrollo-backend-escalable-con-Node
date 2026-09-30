@@ -777,3 +777,10 @@ INICIO Sección 16: Desplegar toda la aplicación a producción
     Clase 223. Postgres en la nube
         https://www.heroku.com/
         https://neon.com/
+    
+    Clase 224. Desplegar aplicación a Render
+        https://www.netlify.com/
+        https://render.com/
+
+        Generar Secret:
+            openssl rand -hex 24
