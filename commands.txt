@@ -784,3 +784,6 @@ INICIO Sección 16: Desplegar toda la aplicación a producción
 
         Generar Secret:
             openssl rand -hex 24
+    
+    Clase 225. Desplegar Vite App - Frontend
+        https://www.netlify.com/
