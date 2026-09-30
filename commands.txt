@@ -787,3 +787,11 @@ INICIO Sección 16: Desplegar toda la aplicación a producción
     
     Clase 225. Desplegar Vite App - Frontend
         https://www.netlify.com/
+    
+    Clase 226. Código fuente de la sección
+        Código fuente de la sección
+            Aquí les dejo el código fuente de la sección por si lo quieren comparar contra el mío. Recuerden leer el README para reconstruirlo en el caso de ser necesario.
+                Backend
+                    https://github.com/Klerith/nest-teslo-shop/tree/fin-seccion-16-render
+                Frontend
+                    https://github.com/Klerith/-nest-teslo-shop-front/tree/fin-seccion-16
