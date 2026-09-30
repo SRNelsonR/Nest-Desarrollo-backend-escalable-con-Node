@@ -772,3 +772,5 @@ INICIO Sección 16: Desplegar toda la aplicación a producción
                 - y mucho más
 
             Espero que esta sección les guste mucho y nos vemos en el siguiente video!! :D
+    
+    Clase 222. Continuación de la sección
